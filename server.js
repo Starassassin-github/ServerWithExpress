@@ -50,6 +50,7 @@ app.post('/api/queryadd',urlencodedParser,(req,res)=>{
     const lastname = req.body.lastname;
     console.log(firstname + ' ' + lastname)
     console.log("test");
+    console.log("test update2")
 
     res.sendStatus(200);
 })
